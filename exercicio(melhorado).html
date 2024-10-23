@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML Page</title>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Página Inicial</a><br>
+        <br>
+        <a href="about.html">About Us</a><br>
+        <br>
+        <a href="contact.html">Contact Us</a><br>
+        <br>
+        <a href="projects.html">Projects</a><br>
+        <br>
+        <a href="https://github.com/Mcaldas11" target="_blank">GitHub</a><br>
+        <br>
+    </nav>
+    
+    <h1>Welcome to my new <b>page</b></h1>
+    <p>This is a <u>simple</u> <i>HTML</i> page. &amp;</p>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <a href="https://google.com/">Google</a>
+    <img src="blog_article.jpg" alt="Aeroporto" width="500">
+    
+    <form>
+        <label for="firstname">Nome:</label><br>
+        <input type="text" id="firstname" name="firstname" placeholder="Digite o seu Nome" required minlength="3">
+        <br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Digite o seu email" required>
+        <br>
+
+        <label for="idade">Idade:</label><br>
+        <input type="number" id="idade" name="idade" placeholder="Selecione a sua idade" required>
+        <br>
+
+        <label for="bday">Birthday:</label>
+        <input type="date" id="bday" name="bday" required>
+        <br>
+
+        <label for="paises">Nacionalidade:</label>
+        <select name="paises" id="paises">
+            <option value="pt">Portugal</option>
+            <option value="es">Espanha</option>
+            <option value="fr">França</option>
+            <option value="it">Italia</option>
+        </select>
+        <br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Digita a sua password" required minlength="8" 
+               pattern="^(?=.*[a-z])(?=.*[A-Z]).{8,}$" 
+               title="A palavra-passe deve ter no mínimo 8 caracteres, uma letra maiúscula e uma minúscula.">
+        <br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+    <table border="1">
+        <tr> 
+            <th>Produto</th>
+            <th>Nome</th>
+            <th>Preço</th>
+            <th>Estado</th>
+        </tr>
+        <tr>
+            <td>Produto 1</td>
+            <td>iPhone 15 Pro</td>
+            <td>1249€</td>
+            <td>Em stock</td>
+         </tr>
+         <tr>
+            <td>Produto 2</td>
+            <td>iPad Pro</td>
+            <td>1049€</td>
+            <td>Sem stock</td>
+         </tr>
+         <tr>
+            <td>Produto 3</td>
+            <td>Apple Watch Series 9</td>
+            <td>459€</td>
+            <td>Em stock</td>
+         </tr>
+         <tr>
+            <td>Produto 4</td>
+            <td>AirPods Max</td>
+            <td>579€</td>
+            <td>Sem stock</td>
+        </tr>
+
+
+    </table>
+</body>
+</html>
